@@ -5,7 +5,7 @@
 // @description  Cleans visited Amazon URLs
 // @author       @lschad
 // @noframe
-// @include      http*://*.amazon.*/dp/*
+// @include      http*://*.amazon.**/dp/*
 // @run-at       document-end
 // @grant        none
 // ==/UserScript==
