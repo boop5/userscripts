@@ -15,5 +15,5 @@
     let el = document.getElementById('averageCustomerReviews');
     let asin = el.getAttribute('data-asin');
     let path = `/dp/${asin}`;
-    window.history.pushState({urlPath: path}, '', path);
+    window.history.replaceState({urlPath: path}, '', path);
 })();
