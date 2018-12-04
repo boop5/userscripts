@@ -4,6 +4,7 @@
 // @version      1.0
 // @description  Cleans visited Amazon URLs
 // @author       @lschad
+// @noframe
 // @include      http*://*.amazon.*
 // @run-at       document-end
 // @grant        none
